@@ -99,6 +99,8 @@ body {
     margin: 1% 5%;
 }
 
+/* Header */
+
 /* Navigation */
 
 nav {
@@ -106,6 +108,7 @@ nav {
     justify-content: space-between;
     align-items: center;
     margin-bottom: 5%;
+    flex-wrap: wrap;
 }
 
 .nav {
@@ -113,21 +116,12 @@ nav {
     color: silver;
 }
 
-/* Header */
+/* Header Content */
 .header-index {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
-}
-
-.text-based {
-    text-align: center;
-    margin: 10% 0;
-}
-
-.text-based > h1 {
-    box-sizing: border-box;
-    font-size: 5em;
+    flex-wrap: wrap;
 }
 
 .header-index button {
@@ -138,6 +132,23 @@ nav {
 .header-index button:hover {
     background-image:none;
     background-color:gold;
+}
+
+.text-based {
+    text-align: center;
+    margin: 10% 0;
+}
+
+.text-based > h1 {
+    box-sizing: border-box;
+    font-size: 4.5rem;
+}
+
+.logo {}
+
+.header-img {
+    /*height: 40%;*/
+    /*width: 40%;*/
 }
 
 hr {

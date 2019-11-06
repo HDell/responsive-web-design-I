@@ -108,7 +108,7 @@ nav {
     justify-content: space-between;
     align-items: center;
     margin-bottom: 5%;
-    flex-wrap: wrap;
+    flex-wrap: wrap-reverse;
 }
 
 .nav {
